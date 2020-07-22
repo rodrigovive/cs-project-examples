@@ -1,15 +1,27 @@
 {
-  "name": "computerScienceProjects",
+  "name": "cs-project-examples",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project with data structures and algorithms",
   "main": "src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html"
   },
+  "author": "Rodrigo Viveros",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigovive/cs-project-examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigovive/cs-project-examples/issues"
+  },
+  "homepage": "https://github.com/rodrigovive/cs-project-examples#readme",
+  "engines": {
+    "npm": ">=5.5.0",
+    "node": ">=9.3.0"
+  },
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
@@ -21,6 +33,7 @@
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-react": "^7.20.3",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
